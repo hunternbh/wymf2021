@@ -4,8 +4,7 @@ import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
-  FaInstagram,
-  FaYoutube,
+  FaInstagram
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 import {IGLINK,FBLINK,YTLINK} from '../../utils'
