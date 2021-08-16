@@ -1,55 +1,27 @@
 export const homeObjOne = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'VIEW OUR PRODUCTS',
-  headline: 'Shop through our catalog of products',
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: 'SAVE THE DATE',
+  headline: '23 SEPT 2021',
   description:
-    'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
-  buttonLabel: 'Shop Now',
+    'The biggest music festival in Singapore!'
+    ,
+  buttonLabel: 'More Details Coming!',
   imgStart: '',
-  img: 'images/svg-4.svg',
-  alt: 'Credit Card'
+  img: '/3.png'
 };
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
-  description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
-  imgStart: '',
-  img: 'images/svg-5.svg',
-  alt: 'Vault'
-};
-
-export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
+  topLine: 'MORE DETAILS TO COME',
+  headline: 'Exciting performances lined up',
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
+    "Watch this space for more upcoming information",
+  buttonLabel: 'More Details Coming!',
   imgStart: 'start',
-  img: 'images/svg-7.svg',
-  alt: 'Vault'
+  img: '/1.png'
 };
 
-export const homeObjFour = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
-  description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
-  imgStart: 'start',
-  img: 'images/svg-8.svg',
-  alt: 'Vault'
-};
