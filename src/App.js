@@ -8,11 +8,13 @@ import Event from './components/pages/Event/Event';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/pages/Footer.js/Footer';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/terms' component={Terms} />
