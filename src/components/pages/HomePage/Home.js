@@ -3,7 +3,6 @@ import HeroSection from '../../HeroSection';
 import HeroSectionfaq from '../../HeroSection-faq';
 import HeroSectionterms from '../../HeroSection-terms';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
-import Pricing from '../../Pricing';
 
 function Home() {
   return (

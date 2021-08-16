@@ -6,10 +6,9 @@ import {
   FaFacebook,
   FaInstagram,
   FaYoutube,
-  FaTwitter,
-  FaLinkedin
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
+import {IGLINK,FBLINK,YTLINK} from '../../utils'
 
 function Footer() {
   return (
@@ -39,8 +38,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <a href={IGLINK}>Instagram</a>
+            <a href={FBLINK}>Facebook</a>
+            <a href={YTLINK}>Youtube</a>
           </div>
         </div>
       </div>

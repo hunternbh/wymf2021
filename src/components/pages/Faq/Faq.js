@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 
 import './Faq.css';
-import HeroSection from '../../HeroSection';
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
 function FAQ ({faq, index, toggleFAQ}) {
 	return (
