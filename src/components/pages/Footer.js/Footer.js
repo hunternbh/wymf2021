@@ -4,9 +4,9 @@ import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
-  FaInstagram
+  FaInstagram,
+  FaYoutube
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
 import {IGLINK,FBLINK,YTLINK} from '../../utils'
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Sayang Sembawang Telegram Group to receive the latest news and trends
+          Join the Sayang Sembawang Telegram Group to receive the latest news
         </p>
 
             <Button buttonStyle='btn--outline'>
@@ -28,10 +28,10 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Directory</h2>
-            <Link to='/sign-up'>Competition</Link>
-            <Link to='/'>Terms</Link>
-            <Link to='/'>Event</Link>
-            <Link to='/'>FAQ</Link>
+            <Link to='/'>Competition</Link>
+            <Link to='/event'>Event</Link>
+            <Link to='/terms'>Terms</Link>
+            <Link to='/faq'>FAQ</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -42,33 +42,45 @@ function Footer() {
             <a href={YTLINK}>Youtube</a>
           </div>
         </div>
+        <div className='footer-link-wrapper'>
+          <div className='footer-link-items'>
+            <h2>Organisers</h2>
+            <a href="http://pa.gov.sg">People's Association</a>
+            <a href={FBLINK}>Woodlands Youth Network</a>
+          </div>
+        </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
+              <img src="/Logo-White.png" alt="" className='navbar-icon'/>
               #WYMF2021
             </Link>
           </div>
           <small className='website-rights'>Woodlands Youth Music Festival © 2021</small>
           <div className='social-icons'>
-            <Link
+            <a href={FBLINK}
               className='social-icon-link'
               to='/'
-              target='_blank'
               aria-label='Facebook'
             >
               <FaFacebook />
-            </Link>
-            <Link
+              </a>
+              <a href={IGLINK}
               className='social-icon-link'
               to='/'
-              target='_blank'
               aria-label='Instagram'
             >
               <FaInstagram />
-            </Link>
+              </a>
+              <a href={YTLINK}
+              className='social-icon-link'
+              to='/'
+              aria-label='Youtube'
+            >
+              <FaYoutube />
+              </a>
             
           </div>
         </div>

@@ -34,7 +34,7 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'EXCITING PRIZES',
-  headline: 'Up to $3,500 of prizes to be won & Chance to host Woodlands mega events!',
+  headline: 'Chances to win up to $3,500 worth of prizes to be won & Chance to host Woodlands mega events!',
   description:
     "Prepare for a music competition like never before! Proudly organised by the Woodlands Youth Network.",
   buttonLabel: 'Terms',
