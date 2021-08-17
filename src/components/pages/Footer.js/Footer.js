@@ -42,13 +42,13 @@ function Footer() {
             <a href={YTLINK}>Youtube</a>
           </div>
         </div>
-        <div className='footer-link-wrapper'>
+        {/* <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Organisers</h2>
             <a href="http://pa.gov.sg">People's Association</a>
             <a href={FBLINK}>Woodlands Youth Network</a>
           </div>
-        </div>
+        </div> */}
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
